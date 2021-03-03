@@ -11,3 +11,10 @@ body {
   width: 100vw;
   height: 100vw;
 }
+
+form {
+  margin: 25% auto;
+  border: 2px red dashed;
+  width: 50%;
+  height: 50%;
+}
