@@ -13,26 +13,35 @@ body {
 }
 
 form {
-  margin: 25% auto;
+  margin: 15% auto;
   border: 2px red dashed;
   width: 50%;
   height: 25%;
 }
 
 input {
-  width: 25%;
+  width: 45%;
+  box-sizing: none;
 }
 
 .dataRight {
-  height: 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 150%;
+  width: 75%;
+  margin-left: 10rem;
 }
 span {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 150%;
+}
+
+.dataLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10% 10%;
+  width: 45%;
 }
