@@ -14,9 +14,25 @@ body {
 
 form {
   margin: 15% auto;
-  border: 2px red dashed;
+  /*   border: 2px red dashed; */
   width: 50%;
   height: 25%;
+}
+
+.dataLeft {
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  margin: 30px auto;
+  width: 50vw;
+  height: 40vh;
+}
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10% 10%;
+  width: 66%;
 }
 
 input {
@@ -24,13 +40,6 @@ input {
   box-sizing: none;
 }
 
-.dataRight {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 75%;
-  margin-left: 10rem;
-}
 span {
   display: flex;
   flex-direction: column;
@@ -38,10 +47,9 @@ span {
   width: 150%;
 }
 
-.dataLeft {
+.dataRight {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 10% 10%;
-  width: 45%;
+  align-items: center;
+  width: 75%;
 }
