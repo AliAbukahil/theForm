@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Form</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
 </head>
 <body>
     <form action="index.js" method="GET">
         <fieldset>
-            <legend> <h3>Sign in with</h3></legend>
-            <input type="text" name="" placeholder="Username or email" id="1">
-            <input type="password" placeholder="Password"  id="2">
+            <legend class="siw"> <h3>Sign in with</h3></legend>
+            <input type="text" name="" placeholder="Username or email" id="1"> <br/>
+            <input type="password" placeholder="Password"  id="2"> <br/>
+            <input type="checkbox" name="Remember me" id="RM">
+            <label> Remember me</label><br />
         </fieldset>
         <button class="facebook">Facebook login</button>
         <button class="google">Google + login</button>
