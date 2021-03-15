@@ -10,41 +10,56 @@
 } */
 
 body {
-    font-family: 'Lobster Two', cursive, Arial, Helvetica, sans-serif;
-    margin: 18rem 0 0 35rem;
+  font-family: "Lobster Two", cursive, Arial, Helvetica, sans-serif;
+  margin: 200px auto;
+  width: 800px;
+  height: 500px;
+  background-color: #eee;
 }
 
 main {
-    display: grid;
-    border: 2px red dashed;
-    width: 50%;
-    height: 350px;
-    grid-template-columns: repeat(4, 1fr) 1fr;
-    grid-template-rows: repeat(3, 1fr);
-/*     gap: calc(0.5px + 5%); */
-    grid-template-areas: 
-    "data-left data-left "
-    "data-middle data-right-top"
-    "data-right-top data-bottom";
+  display: grid;
+  height: 50vh;
+  width: 50vw;
+  grid-template-columns: 45% 10% 45%;
+  grid-template-rows: 90% auto;
 }
 
 div {
-    border: 2px red dashed;
+  border: 2px red dashed;
+}
+
+/* main {
+  display: grid;
+  height: 50vh;
+  width: 50vw;
+  grid-template-columns: 2fr 0.5fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "data-left data-middle data-right"
+    "data-left data-middle data-right"
+    "data-left data-middle data-right"
+    "data-bottom data-bottom data-bottom";
+}
+
+div {
+  border: 2px red dashed;
 }
 
 .data-left {
-    grid-area: data-left;
+  grid-area: data-left;
 }
 
 .data-middle {
-    grid-area: data-middle;
+  grid-area: data-middle;
 }
 
 .data-right-top {
-    grid-area: data-right-top;
+  grid-area: data-right-top;
 }
 
 .data-bottom {
-    grid-area: data-bottom;
-    background-color: #f2f9fe;
+  grid-area: data-bottom;
+  background-color: #f2f9fe;
 }
+ */
