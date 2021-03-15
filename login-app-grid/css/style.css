@@ -11,4 +11,41 @@
 
 body {
     font-family: 'Lobster Two', cursive, Arial, Helvetica, sans-serif;
+    margin: 18rem 0 0 35rem;
+}
+
+main {
+    display: grid;
+    border: 2px red dashed;
+    width: 50%;
+    height: 350px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+/*     gap: calc(0.5px + 5%); */
+    grid-template-areas: 
+    "data-left data-left "
+    "data-middle data-right-top ";
+
+}
+
+div {
+  border: 2px red dashed;
+}
+
+.data-left {
+    grid-area: data-left;
+}
+
+.data-middle {
+    grid-area: data-middle;
+}
+
+.data-right-top {
+    grid-area: data-right-top;
+}
+
+.data-bottom {
+    grid-area: data-bottom;
+    background-color: #f2f9fe;
 }
